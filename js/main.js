@@ -1,4 +1,5 @@
 // use listItems to hold all of the list elements
+var favCar = document.getElementById("fav-car");
 var listItems = document.getElementById("item-list").getElementsByTagName("li");
 
 for (i=0; i < listItems.length; i++) {
@@ -6,5 +7,5 @@ for (i=0; i < listItems.length; i++) {
 }
 
 function activateItem(){
-    alert("Click detected");
+    favCar.innerHTML = this.innerHTML;
 }
