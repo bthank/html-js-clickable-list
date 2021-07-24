@@ -1,7 +1,7 @@
 // use listItems to hold all of the list elements
 var favCar = document.getElementById("fav-car");
 var addNewItemBtn = document.getElementById("add-new-item-btn");
-var itemList = document.getElementById("item-list");
+var itemList = document.querySelector("#item-list");
 var listItems = document.getElementById("item-list").getElementsByTagName("li");
 var cnt = 0;
 
